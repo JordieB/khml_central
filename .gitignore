@@ -1,2 +1,8 @@
 venv/
+
 .env
+.streamlit/secrets.toml
+
+dev_scratch.ipynb
+
+__pycache__
