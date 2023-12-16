@@ -8,10 +8,12 @@ st.markdown('# KHML Central')
 
 # Intro blurb
 container = st.container(border=True)
-container.write(("***News, Strategies, Tools, Data***\n\n"
-                 "KHML Central brings you the latest updates, in-depth "
-                 "strategies, comprehensive guides, and data/tools for "
-                 "Kingdom Hearts Missing-Link."))
+container.write("""
+***News, Strategies, Tools, Data***\n\n
+
+KHML Central brings you the latest updates, in-depth strategies, comprehensive 
+guides, and data/tools for Kingdom Hearts Missing-Link.
+""")
 
 # App feature showcase
 st.markdown(("""
@@ -25,5 +27,7 @@ st.markdown(("""
 """))
 
 # CTA
-st.success(("Don't let your light go out! Explore KHML Central now and join "
-           "the community to help improve it using the Contact page!"))
+st.success("""
+Don't let your light go out! Explore KHML Central now and join the community
+to help improve it using the Contact page!
+""")
