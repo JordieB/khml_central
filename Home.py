@@ -31,3 +31,10 @@ st.success("""
 Don't let your light go out! Explore KHML Central now and join the community
 to help improve it using the Contact page!
 """)
+
+# Footer
+st.markdown("---")
+st.markdown("""
+*KHML Central is an independent fan-made project and is not affiliated with the 
+official Kingdom Hearts brand or its creators.*
+""")
